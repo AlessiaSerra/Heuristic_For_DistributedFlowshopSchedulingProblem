@@ -26,9 +26,6 @@ As DPFSP is NP-Hard, exact solvers struggle with larger instances due to combina
   - `swap_neighbours`: A local search function that optimizes the job sequence within a single factory.
   - `compute_factory_makespan`: Calculates the completion time of a given sequence of jobs.
 - `run_experiments.py`: A script to automate the execution of multiple experimental runs and log the results into a text file.
-- `tuttoinsieme.py` / `non_funzionante.py`: Scratchpad and legacy files showing the iterative development of the algorithms.
-- `results*.txt`: Output logs from the experiments comparing the exact MILP solver and the heuristic approach.
-- `Tesi.pdf`: The full thesis document detailing the mathematical formulation, the heuristic design, and the experimental results.
 
 ## Requirements
 
